@@ -99,7 +99,32 @@ td {
   background-color: #f1f1f1;
 }
 /* FORM */
-
+.video {
+  width: 100%;
+  border-radius: 20px;
+  height: 269px;
+}
+.videobox {
+  padding-bottom: 30px;
+}
+.news {
+  background-color: #e2e1e2;
+  text-align: center;
+  height: 300px;
+}
+.news h3 {
+  padding-block: 39px;
+  font-size: 2em;
+}
+.news p {
+  font-size: 1.3em;
+  text-align: left;
+  line-height: 1.5;
+  padding-left: 1em;
+}
+.news button {
+  background-color: #4868c1;
+}
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
