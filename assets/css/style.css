@@ -12,27 +12,24 @@ img {
   margin-top: 20px;
 }
 .logomenu {
+  padding-bottom: 1em;
   text-align: center;
   color: white;
   width: auto;
   background-color: #017188;
   box-shadow: 2px 2px 10px black;
-  background: linear-gradient(
-    180deg,
-    rgba(3, 213, 255, 1) 0%,
-    rgba(32, 122, 140, 1) 50%,
-    rgba(2, 67, 82, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(3, 213, 255, 1) 0%, rgba(32, 122, 140, 1) 50%, rgba(2, 67, 82, 1) 100%);
 }
 .title {
   font-size: large;
   padding: 10px;
 }
 .menulist {
-  font-size: 1.5em;
+  color: white;
+  font-size: 1.2em;
 }
 li {
-  padding-bottom: 1em;
+  margin-bottom: 0.3rem;
 }
 
 /* MAIN */
@@ -46,14 +43,17 @@ main {
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  line-height: 50px;
 }
 .autor {
   color: gray;
+  font-size: 1rem;
 }
 p {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 2rem;
 }
 
 /* TABELLE */
@@ -62,6 +62,41 @@ ul {
 }
 ol {
   list-style: decimal;
+}
+ul,
+ol {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+table {
+  text-align: center;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-bottom: #5069b3;
+}
+th {
+  background-color: #5069b3;
+  color: white;
+  align-content: center;
+  border-left: 1px solid white;
+  height: 65px;
+  width: 33%;
+}
+tr {
+  font: size 0.9em;
+  padding: 2rem;
+}
+td {
+  align-content: center;
+  height: 3rem;
+  border-left: 1px solid white;
+}
+.grey td {
+  background-color: #f1f1f1;
 }
 /* FORM */
 
