@@ -124,6 +124,18 @@ td {
 }
 .news button {
   background-color: #4868c1;
+  font-weight: bold;
+  color: white;
+  margin-left: -5;
+  border: 0px;
+  padding: 5px;
+}
+.news input {
+  border: 0px;
+  padding: 5px;
+  width: 250px;
+  margin-right: -4px;
+  box-shadow: 1% black;
 }
 /* ELEMENTI NELL' ASIDE */
 
